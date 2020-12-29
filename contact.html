@@ -25,6 +25,7 @@
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,600,700%7CRaleway:700' rel='stylesheet' type='text/css'>
 		<script src="js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		
     </head>
     <body>
     	<div class="loader">
@@ -115,22 +116,6 @@
 						<h1 class="headings" style="color: rgb(255, 255, 255); text-align: center;">Contact</h1>
 					  </div>
 						<div class="column mt-3">
-						  <!-- <form id="gform" method="POST" action="https://script.google.com/macros/s/AKfycbwRH2R6yOUgvcCNCSPMrryK1AuHqcphX0KR--EahIHpyLldOMhhF6VM/exec">
-							<div class="form-group">
-							  <label for="exampleInputEmail1" style="color: aliceblue;">Email address</label>
-							  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required>
-							  
-							</div>
-							<div class="form-group">
-							  <label for="exampleInputPassword1" style="color: aliceblue;">Name</label>
-							  <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Your name" required>
-							</div>
-							<div class="form-group">
-							  <label for="exampleFormControlTextarea1" style="color: aliceblue;">Type your message</label>
-							  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Type your message..." required></textarea>
-							</div>
-							
-						  </form> -->
 						  <form id="submit-form" action="">
 						<div class="form-group">
 							<label for="fname" style="color: aliceblue;">First Name</label>
@@ -138,11 +123,11 @@
 						  </div>
 						  <div class="form-group">
 							<label for="lname" style="color:aliceblue">Email</label>
-							<input type="email" id="lname" name="email" class="form-control" placeholder="Your last name..">
+							<input type="email" id="lname" name="email" class="form-control" placeholder="Your last name.." required>
 							</div>
 							<div class="form-group">
 							<label for="country" style="color: aliceblue;">Country</label>
-							<select id="country" class="form-control" name="country">
+							<select id="country" class="form-control" name="country" required>
 							  <option value="australia">Australia</option>
 							  <option value="canada">Canada</option>
 							  <option value="usa">USA</option>
@@ -152,7 +137,7 @@
 							</div>
 							<div class="form-group">
 							<label for="subject" style="color: aliceblue;">Message</label>
-							<textarea id="subject" name="message" class="form-control" placeholder="Write something.." style="height:170px"></textarea>
+							<textarea id="subject" name="message" class="form-control" placeholder="Write something.." style="height:170px" required></textarea>
 							</div>
 							
 							<div class="button text-center">
